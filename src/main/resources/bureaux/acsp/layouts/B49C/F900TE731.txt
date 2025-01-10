@@ -1,0 +1,16 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_consulta				:4		:S
+subtipo						:1		:N
+ddd_tel_1					:4		:S
+numero_tel_1				:9		:S
+ddd_tel_2					:4		:S
+numero_tel_2				:9		:S
+ddd_tel_3					:4		:S
+numero_tel_3				:9		:S
+ddd_tel_4					:4		:S
+numero_tel_4				:9		:S
+ddd_tel_5					:4		:S
+numero_tel_5				:9		:S
+filler						:41		:S

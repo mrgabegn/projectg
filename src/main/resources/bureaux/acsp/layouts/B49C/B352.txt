@@ -1,0 +1,11 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+empresa						:40		:S
+cnpj						:8		:N
+participacao				:5		:N
+estado						:2		:S
+situacao					:43		:S
+data_inicio_participacao	:6		:N
+data_ultima_atualizacao		:6		:N
+filler						:1		:S

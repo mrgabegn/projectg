@@ -1,0 +1,9 @@
+nome							:tamanho:tipo
+
+tipo							:4		:X
+sequencia						:3		:N
+max_atraso_cli					:5		:N
+qtd_parcelas					:3		:N
+valor_devido					:8		:N
+produto							:2		:X
+filler							:90		:X

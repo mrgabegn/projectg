@@ -1,0 +1,13 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+quantidade_total			:5		:N
+descricao					:28		:S
+menor_data					:6		:N
+maior_data					:6		:N
+tipo_moeda					:3		:S
+valor_ultima				:9		:N
+origem						:20		:S
+filial						:4		:S
+tipo_pefin					:2		:S
+filler						:28		:S

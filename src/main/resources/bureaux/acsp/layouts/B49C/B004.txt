@@ -1,0 +1,12 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+endereco					:30		:S
+numero						:5		:S
+complemento					:10		:S
+bairro						:20		:S
+cidade						:25		:S
+uf							:2		:S
+cep							:8		:N
+desde						:6		:N
+filler						:5		:S

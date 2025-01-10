@@ -1,0 +1,7 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_consulta				:4		:S
+subtipo						:3		:N
+mensagem					:70		:S
+filler						:34		:S

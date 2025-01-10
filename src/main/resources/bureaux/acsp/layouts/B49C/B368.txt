@@ -1,0 +1,12 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+data_ocorrencia				:8		:N
+modalidade					:2		:S
+tipo_moeda					:3		:S
+valor						:9		:N
+titulo						:17		:S
+origem						:20		:S
+local						:4		:S
+quantidade_ocorrencia		:5		:N
+filler						:33		:S

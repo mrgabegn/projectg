@@ -1,0 +1,11 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_consulta				:4		:S
+subtipo						:3		:N
+data_inicial				:8		:N
+data_final					:8		:N
+tipo_operacao				:1		:S
+numero_contrato				:30		:S
+valor_debito				:15		:N
+filler						:42		:S

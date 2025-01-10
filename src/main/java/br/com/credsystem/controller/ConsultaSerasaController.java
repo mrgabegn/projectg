@@ -1,6 +1,7 @@
 package br.com.credsystem.controller;
 
 import br.com.credsystem.common.enumeration.TipoRetorno;
+import br.com.credsystem.dto.request.consultaSerasaRequestDTO;
 import br.com.credsystem.dto.response.BureauxRegistroResponseDTO;
 import br.com.credsystem.service.ConsultaService;
 import lombok.Setter;
@@ -28,42 +29,14 @@ public class ConsultaSerasaController {
 
     @PostMapping("/consultaSerasa")
     @ResponseStatus(HttpStatus.OK)
-    public BureauxRegistroResponseDTO consultaSerasa() {
-        return service.consultaSerasa(
-                cpf,
-                produto,
-                rotina,
-                tipo,
-                layoutFile,
-                httpConnectTentativas,
-                httpConnectTimeoutSecs,
-                tipoRetorno,
-                proposta
-        );
+    public BureauxRegistroResponseDTO consultaSerasa(@RequestBody consultaSerasaRequestDTO request) throws Exception {
+        return service.consultaSerasa(request);
     }
 
     @GetMapping("/consultaSerasa/local")
     @ResponseStatus(HttpStatus.OK)
-    public BureauxRegistroResponseDTO consultaSerasaLocal(@RequestParam(name = "cpf") String cpf,
-                                                          @RequestParam(name = "produto") String produto,
-                                                          @RequestParam(name = "rotina") String rotina,
-                                                          @RequestParam(name = "tipo") String tipo,
-                                                          @RequestParam(name = "layoutFile") String layoutFile,
-                                                          @RequestParam(name = "httpConnectTentativas") int httpConnectTentativas,
-                                                          @RequestParam(name = "httpConnectTimeoutSecs") int httpConnectTimeoutSecs,
-                                                          @RequestParam(name = "tipo_retorno") TipoRetorno tipoRetorno,
-                                                          @RequestParam(name = "proposta") String proposta) {
-        return service.consultaSerasaLocal(
-                cpf,
-                produto,
-                rotina,
-                tipo,
-                layoutFile,
-                httpConnectTentativas,
-                httpConnectTimeoutSecs,
-                tipoRetorno,
-                proposta
-        );
+    public BureauxRegistroResponseDTO consultaSerasaLocal(@RequestBody consultaSerasaRequestDTO request) throws Exception {
+        return service.consultaSerasaLocal(request);
     }
     
 }

@@ -1,12 +1,14 @@
 package br.com.credsystem.service.impl;
 
 import br.com.credsystem.common.enumeration.TipoRetorno;
+import br.com.credsystem.dto.BureauxRegistro;
 import br.com.credsystem.dto.BureauxRegistroDTO;
 import br.com.credsystem.dto.SerasaStatusDTO;
 import br.com.credsystem.dto.response.BureauxRegistroResponseDTO;
 import br.com.credsystem.integration.api.SerasaAPI;
 import br.com.credsystem.model.LogSerasaRetorno;
 import br.com.credsystem.service.BindBureauxService;
+import br.com.credsystem.service.SerasaService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,18 +18,21 @@ import java.util.Properties;
 @Service
 public class BindBureauxServiceImpl implements BindBureauxService {
 
-    SerasaAPI serasaAPI;
+    SerasaService serasaService;
 
     @Override
-    public SerasaStatusDTO bindBureauxRegistro(LogSerasaRetorno logSerasaRetorno, BureauxRegistroResponseDTO retorno, TipoRetorno tipoRetorno) {
+    public SerasaStatusDTO bindBureauxRegistro(LogSerasaRetorno logSerasaRetorno, BureauxRegistroResponseDTO retorno, TipoRetorno tipoRetorno) throws Exception {
         retorno.setId(Integer.parseInt(logSerasaRetorno.getLogSerasaEnvio().getId().toString()));
         String retornoConsulta;
         retornoConsulta = logSerasaRetorno.getRetorno();
 
         SerasaStatusDTO status = new SerasaStatusDTO();
         if (tipoRetorno.equals(TipoRetorno.ANALITICO)) {
-            List<BureauxRegistroDTO> registroList= serasaAPI.getSerasaRetornoMapped(retornoConsulta);
-            registroList.forEach(retorno::add);
+            Map<String, Object> registroList = serasaService.getSerasaRetornoMapped(retornoConsulta);
+            for (Map.Entry<String, Object> entry : registroList.entrySet()) {
+                Properties properties = (Properties) entry.getValue();
+                retorno.add(new BureauxRegistroDTO(entry.getKey() + "", entry.getValue().toString(), properties));
+            }
         }
 
         String negativado = retornoConsulta.substring(193, 194);

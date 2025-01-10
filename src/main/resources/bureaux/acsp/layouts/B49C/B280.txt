@@ -1,0 +1,10 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+descricao_modelo			:4		:S
+score						:6		:N
+range						:6		:S
+taxa						:5		:S
+mensagem					:49		:S
+codigo_mensagem				:6		:S
+filler						:35		:S

@@ -1,0 +1,12 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+data_ocorrencia				:8		:N
+origem						:20		:S
+agencia						:4		:N
+conta_corrente				:8		:N
+cheque_inicial				:6		:N
+cheque_final				:6		:N
+motivo_sustacao				:10		:S
+quantidade_ocorrencia		:5		:N
+filler						:44		:S

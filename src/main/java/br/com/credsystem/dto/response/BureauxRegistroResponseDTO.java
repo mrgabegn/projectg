@@ -1,5 +1,6 @@
 package br.com.credsystem.dto.response;
 
+import br.com.credsystem.dto.BureauxRegistro;
 import br.com.credsystem.dto.BureauxRegistroDTO;
 import br.com.credsystem.dto.SerasaStatusDTO;
 import lombok.*;

@@ -1,0 +1,8 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_consulta				:4		:S
+subtipo						:3		:N
+nome_consumidor				:60		:S
+cidade						:30		:S
+filler						:14		:S

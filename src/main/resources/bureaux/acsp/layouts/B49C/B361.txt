@@ -1,0 +1,12 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+quantidade_total			:5		:N
+descricao					:28		:S
+menor_data					:6		:N
+maior_data					:6		:N
+tipo_moeda					:3		:S
+valor						:9		:N
+cidade						:25		:S
+uf							:2		:S
+filler						:27		:S

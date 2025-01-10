@@ -1,0 +1,25 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:X
+grafias						:1		:X
+detalhe_grafias				:1		:X
+resumo_cadastro_sintetico	:1		:X
+detalhe_registro_consultas	:1		:X
+participacao_societaria		:1		:X
+percentual					:2		:X
+qtd_ocorrencia_negativa		:2		:X
+resumo_anotacao_negativa	:1		:X
+detalhe_pendencia			:1		:X
+detalhe_divida_vencida		:1		:X
+achei_ccf					:1		:X
+resumo_ccf					:1		:X
+detalhe_protesto			:1		:X
+detalhe_acao_judicial		:1		:X
+detalhe_falencia			:1		:X
+filler						:1		:X
+historico_score_individual	:1		:X
+previsao_pagamento			:1		:X
+compromisso_previsto		:1		:X
+dados_referencia			:1		:X
+documentos					:1		:X
+filler_1					:88		:X

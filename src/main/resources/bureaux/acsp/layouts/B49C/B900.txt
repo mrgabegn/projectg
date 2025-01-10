@@ -1,0 +1,4 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_erros				:105	:N

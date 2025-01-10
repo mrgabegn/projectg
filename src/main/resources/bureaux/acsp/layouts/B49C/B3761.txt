@@ -1,0 +1,12 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+tipo_registro				:1		:S
+tipo_documento				:1		:S
+descricao_tipo_documento	:6		:S
+numero_documento			:20		:S
+data_ocorrencia				:10		:S
+motivo_ocorrencia			:10		:S
+ddd_contato					:3		:S
+telefone_contato			:8		:S
+filler						:51		:S

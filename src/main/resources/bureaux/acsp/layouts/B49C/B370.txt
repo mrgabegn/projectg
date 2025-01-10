@@ -1,0 +1,9 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+tipo_registro				:1		:S
+ddd_telefone				:3		:N
+numero_telefone				:9		:N
+endereco					:70		:S
+bairro						:20		:S
+cep							:8		:N

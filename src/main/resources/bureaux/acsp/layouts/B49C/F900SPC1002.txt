@@ -1,0 +1,9 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_consulta				:4		:S
+subtipo						:3		:N
+nome_associado				:60		:S
+cidade						:30		:S
+uf							:2		:S
+filler						:12		:S

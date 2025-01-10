@@ -1,0 +1,9 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+empresa						:40		:S
+desde						:6		:N
+tipo_moeda					:3		:S
+profissao					:30		:S
+cargo						:20		:S
+filler						:12		:S

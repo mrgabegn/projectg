@@ -1,0 +1,8 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_consulta				:4		:S
+score						:1		:N
+range						:45		:S
+tem_negativacao				:1		:S
+filler						:60		:S

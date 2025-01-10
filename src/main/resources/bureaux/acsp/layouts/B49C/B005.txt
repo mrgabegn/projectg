@@ -1,0 +1,10 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+ocupacao					:10		:S
+renda						:9		:N
+carteira_trabalho_serie		:5		:S
+carteira_trabalho_numero	:7		:S
+filler_1					:1		:S
+participacao_empresarial	:3		:N
+filler_2					:76		:N

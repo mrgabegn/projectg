@@ -5,9 +5,12 @@ import br.com.credsystem.model.LogSerasaRetorno;
 import br.com.credsystem.model.SerasaSenha;
 import feign.Param;
 import feign.RequestLine;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Component
 public interface SerasaAPI {
 
     @RequestLine("GET /retorno")

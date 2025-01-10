@@ -1,0 +1,13 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+data_ocorrencia				:8		:N
+tipo_moeda					:3		:S
+valor						:9		:N
+cartorio					:4		:N
+cidade						:25		:S
+uf							:2		:S
+quantidade_ocorrencia		:5		:N
+subjudice					:1		:S
+data						:8		:N
+filler						:46		:S

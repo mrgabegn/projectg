@@ -1,0 +1,22 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+tipo_pefin					:2		:S
+modalidade					:12		:S
+tipo_ocorrencia				:1		:S
+ultima_ocorrencia			:9		:N
+filler_1					:1		:S
+filler_2					:2		:S
+data_ocorrencia				:8		:N
+sigla_modalidade			:2		:S
+principal					:1		:S
+tipo_moeda					:3		:S
+valor						:9		:N
+contrato					:17		:S
+origem						:20		:S
+filial						:4		:S
+quantidade_ocorrencia		:5		:N
+codigo_banco				:4		:S
+subjudice					:1		:S
+uf							:2		:S
+filler_3					:8		:S

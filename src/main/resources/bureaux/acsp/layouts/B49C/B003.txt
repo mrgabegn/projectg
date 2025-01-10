@@ -1,0 +1,17 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+estado_civil				:12		:S
+dependentes					:2		:N
+escolaridade				:12		:S
+municipio_nascimento		:25		:S
+uf_nascimento				:2		:S
+cpf_conjuge					:11		:N
+ddd_residencial				:4		:N
+telefone_residencial		:8		:N
+ddd_comercial				:4		:N
+telefone_comercial			:8		:N
+ramal_comercial				:4		:N
+telefone_celular			:8		:N
+codigo_cliente				:2		:N
+filler						:9		:S

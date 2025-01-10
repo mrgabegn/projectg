@@ -1,0 +1,14 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+filler_1					:3		:S
+atualiza					:8		:N
+nascimento					:8		:N
+nome_mae					:45		:S
+sexo						:1		:S
+tipo_doc					:15		:S
+numero_doc					:15		:S
+orgao_emissao				:5		:S
+data_emissao				:8		:N
+uf_emissao					:2		:S
+filler_2					:1		:S

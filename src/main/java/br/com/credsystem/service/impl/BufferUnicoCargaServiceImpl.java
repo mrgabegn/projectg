@@ -49,7 +49,7 @@ public class BufferUnicoCargaServiceImpl implements BufferUnicoCargaService {
     }
 
     public java.sql.Date formataData(String data) throws Exception {
-        if (data == null || data.equals("")) {
+        if (data == null || data.isEmpty()) {
             return null;
         }
         java.sql.Date date = null;

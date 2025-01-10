@@ -1,0 +1,12 @@
+nome                    	:tamanho:tipo
+
+tipo						:004	:X
+cod1						:004	:X
+chave1						:021	:X
+cod2						:004	:X
+chave2						:021	:X
+cod3						:004	:X
+chave3						:021	:X
+cod4						:004	:X
+chave4						:021	:X
+filler						:011	:X

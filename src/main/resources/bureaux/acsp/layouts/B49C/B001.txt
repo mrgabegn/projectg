@@ -1,0 +1,18 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+grafia						:45		:S
+cpf							:11		:N
+rg							:15		:S
+nascimento					:8		:N
+cidade						:4		:S
+titular						:1		:S
+filler_1					:4		:S
+link						:9		:N
+situcao						:1		:N
+data_atual					:8		:N
+reservado					:1		:S
+indic_erro					:1		:S
+excluir_grafia				:1		:S
+nova_situacao				:1		:N
+filler_2					:1		:S

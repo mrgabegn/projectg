@@ -1,0 +1,17 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+quantidade_credito_total	:3		:N
+data_atual					:6		:N
+quantidade_credito_atual	:3		:N
+quantidade_credito_mes_1	:3		:N
+quantidade_credito_mes_2	:3		:N
+quantidade_credito_mes_3	:3		:N
+quantidade_cheque_total		:3		:N
+quantidade_atual			:3		:N
+quantidade_cheque_mes_1		:3		:N
+quantidade_cheque_mes_2		:3		:N
+quantidade_cheque_mes_3		:3		:N
+posicao						:8		:N
+data_ficad					:8		:N
+filler						:59		:S

@@ -1,0 +1,17 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+data_ocorrencia				:8		:N
+numero_cheque				:6		:S
+alinea						:2		:N
+quantidade					:4		:N
+tipo_moeda					:3		:S
+valor						:9		:N
+banco						:30		:S
+agencia						:4		:S
+cidade						:25		:S
+uf							:2		:S
+quantidade_ocorrencia		:5		:N
+tipo_conta					:1		:S
+conta						:9		:N
+filler						:3		:S

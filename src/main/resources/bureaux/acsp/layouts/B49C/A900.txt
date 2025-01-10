@@ -1,0 +1,7 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+codigo_mensagem				:6		:N
+mensagem_reduzida			:32		:S
+mensagem_completa			:70		:S
+filler						:3		:S

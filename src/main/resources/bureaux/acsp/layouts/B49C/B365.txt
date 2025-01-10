@@ -1,0 +1,9 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+total_ocorrencia			:5		:N
+descricao					:28		:S
+menor_data					:6		:N
+maior_data					:6		:N
+empresa						:40		:S
+filler						:26		:S

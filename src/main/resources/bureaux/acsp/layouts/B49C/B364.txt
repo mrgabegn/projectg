@@ -1,0 +1,15 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+data_ocorrencia				:8		:N
+natureza					:20		:S
+principal					:1		:S
+tipo_moeda					:3		:S
+valor						:9		:N
+distribuidor_acao			:4		:N
+vara						:4		:N
+cidade						:25		:S
+uf							:2		:S
+quantidade_ocorrencia		:5		:N
+subjudice					:1		:S
+filler						:29		:S

@@ -1,0 +1,11 @@
+nome                    	:tamanho:tipo
+
+tipo						:4		:S
+data_ocorrencia				:8		:N
+tipo_ocorrencia				:10		:S
+cnpj						:14		:N
+empresa						:45		:S
+total_ocorrencia			:5		:N
+codigo_qualificacao			:3		:S
+vara_civil					:4		:N
+filler						:22		:S
